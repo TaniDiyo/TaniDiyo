@@ -1,0 +1,19 @@
+h3{
+    text-align: center;
+    letter-spacing: 2.5;
+    text-decoration: red double;
+}
+h5{
+    text-align: center;
+    letter-spacing: 2;
+    text-decoration: red double;
+}
+h6{
+    text-align: center;
+    letter-spacing: 2;
+    text-decoration: red double;
+}
+p{
+    text-align: justify;
+    letter-spacing: 2.5;
+}

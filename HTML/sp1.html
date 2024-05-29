@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #proposal-container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #message {
+            display: none;
+            font-size: 18px;
+            color: #FF69B4;
+            /* Hot Pink text */
+            margin-top: 20px;
+        }
+
+        #proposal-btn {
+            background-color: #4CAF50;
+            /* Green button */
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <image src="https://i.pinimg.com/originals/21/2f/de/212fde79ecba2be0799a0e728c62495c.gif" alt="teddy"></image>
+    <div id="proposal-container">
+        <h2>Will you be mine?</h2>
+        <button id="proposal-btn" onclick="showMessage()">Yes, I wanna be yours!</button>
+        <p id="message">Yeyyyy! You are so special!</p>
+        <button id="proposal-btn" onclick="showMessage()">No</button>
+        <p id="message">Fuck you!</p>
+    </div>
+
+    <script>
+        function showMessage() {
+            var message = document.getElementById('message');
+            message.style.display = 'block';
+        }
+    </script>
+</body>
+
+</html>

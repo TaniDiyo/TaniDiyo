@@ -1,0 +1,41 @@
+.main{
+    margin: 20px 100px;
+}
+*{
+    background-color: blanchedalmond;
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.I{
+    width: 300px;
+    height: 300px;
+    border: 2px black solid;
+    display: inline-block;
+    margin: 60px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px black;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.section{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.head{
+    font-size: 50px;
+    text-decoration: solid;
+}
+p{
+    font-size: 20px;
+    justify-content: center;
+}
+.last{
+   margin-left: 500px;
+    
+}
